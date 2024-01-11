@@ -442,3 +442,133 @@ padding: 3rem;
     border: none;
     cursor: pointer;
 }
+
+/* -------------------- Responsive Styling by @meadia ----------------------- */
+@media (max-width:500px) {
+     html{
+        font-size: 50%;
+     }
+     .navbar .logo ,.navbar .nav-items{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;    
+     }
+     .header-content h1{
+        display: none;
+     }
+     .row{
+        height: auto;
+        width:100%;
+     }
+     .row .img-box,
+     .row .text-box {
+        float: none;
+        width: 100%;
+        text-align: center;
+     }
+      .features .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.429);
+
+      }
+      .features .box-1,
+      .features .box-2{
+        margin-bottom: 7rem;
+      }
+      .box-wrapper {
+        box-shadow: none;
+    }
+    .contact-content-left,
+    .contact-content-right{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .form-wrapper .company-address 
+   {
+        float: none;
+         height: auto;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width:501px) and (max-width:768px){
+    html{
+        font-size: 50%;
+     }
+     p{
+        font-size: 1.8rem;
+     }
+     .navbar .logo ,.navbar .nav-items{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;    
+     }
+    
+     .row{
+        height: auto;
+        width:100%;
+     }
+     .row .img-box,
+     .row .text-box {
+        float: none;
+        width: 100%;
+        text-align: center;
+     }
+      .features .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.429);
+
+      }
+      .features .box-1,
+      .features .box-2{
+        margin-bottom: 7rem;
+      }
+      .box-wrapper {
+        box-shadow: none;
+    }
+    .contact-content-left,
+    .contact-content-right{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .form-wrapper .company-address 
+   {
+        float: none;
+         height: auto;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 769px) and (max-width:1200px){
+    html{
+        font-size: 56.25%;
+    }
+    .row .text-box h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+}
+@media(orientation : landscape)and (max-heigth:500px){
+   .header{
+    height: 90vmax;
+   } 
+}
